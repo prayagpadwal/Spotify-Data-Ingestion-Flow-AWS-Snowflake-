@@ -39,12 +39,12 @@ create or replace storage integration spotify_s3_integration
     storage_provider = 's3'
     ENABLED = true
     STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::072461053412:role/snowflake_s3_access_role'
-    STORAGE_ALLOWED_LOCATIONS = ('s3://spotify-etl-project-rithujaa')
+    STORAGE_ALLOWED_LOCATIONS = ('s3://spotify-etl-project-praayag')
 
 desc STORAGE INTEGRATION spotify_s3_integration;
 
 create or replace stage spotify_raw_stage
-    URL = 's3://spotify-etl-project-rithujaa/'
+    URL = 's3://spotify-etl-project-praayag/'
     STORAGE_INTEGRATION = spotify_s3_integration
     FILE_FORMAT = ( TYPE = CSV FIELD_DELIMITER = ',' SKIP_HEADER = 1 );
 

@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 
     playlist = sp.user_playlists('spotify')
-    playlist_link = "https://open.spotify.com/playlist/2rC6YuunnDMjJKcUewv3uD?trackId=4Bsf8Pzli5MQv9zLF9KXqc"
+    playlist_link = "https://open.spotify.com/playlist/3j1h2RulQqmDanCKTHpGfv?si=wzi7VstJRp61PJp75Q_NBQ"
     playlist_URI = playlist_link.split("/")[-1].split("?")[0]
     spotify_data = sp.playlist_tracks(playlist_URI)
 
@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     filename = "spotify_raw_" + str(datetime.now()) + ".json"
 
     client.put_object(
-        Bucket = 'spotify-etl-project-rithujaa',
+        Bucket = 'spotify-etl-project-praayag',
         Key = 'raw_data/to_processed/'+filename,
         Body = json.dumps(spotify_data)
     )

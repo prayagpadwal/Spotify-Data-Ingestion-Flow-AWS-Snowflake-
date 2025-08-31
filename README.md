@@ -56,4 +56,6 @@ spotify-etl-pipeline/
 
 ## 📬 Contact
 
-If you’re also exploring data engineering or cloud projects — I’d love to connect!
+I’d love to connect!
+Gmail: padwalprayag@gmail.com
+LinkedIn: https://www.linkedin.com/in/prayagpadwal/
