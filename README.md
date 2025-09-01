@@ -55,7 +55,9 @@ spotify-etl-pipeline/
 ```
 
 ## Contact
+Shout-out to linkedin.com/in/rithujaa
 
 I’d love to connect!
 Gmail: padwalprayag@gmail.com
 LinkedIn: https://www.linkedin.com/in/prayagpadwal/
+
