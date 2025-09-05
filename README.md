@@ -1,6 +1,6 @@
 # Spotify ETL Pipeline using AWS & Snowflake
 
-This project is a **serverless ETL pipeline** that collects data from the **Spotify API**, processes it using **AWS Lambda**, stores it in **Amazon S3**, and automatically loads it into **Snowflake** using **Snowpipe** — making the data instantly available for analysis.
+This project is a **serverless ETL pipeline** that collects data from the **Spotify API**, processes it using **AWS Lambda**, stores it in **Amazon S3**, and automatically loads it into **Snowflake** using **Snowpipe** — making the data instantly available for analysis. Shoutout: linkedin.com/in/rithujaa
 
 ---
 
@@ -60,5 +60,5 @@ I’d love to connect!
 Gmail: padwalprayag@gmail.com
 LinkedIn: https://www.linkedin.com/in/prayagpadwal/
 
-Shout-out to linkedin.com/in/rithujaa
+
 
