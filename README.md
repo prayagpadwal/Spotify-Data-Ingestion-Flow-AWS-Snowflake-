@@ -60,6 +60,3 @@ I’d love to connect!
 Gmail: padwalprayag@gmail.com
 LinkedIn: https://www.linkedin.com/in/prayagpadwal/
 
-https://docs.google.com/document/d/16HSw2ka0-kDJOn89IktUZctRfTwPRQY1/edit?usp=sharing&ouid=118021748230033393110&rtpof=true&sd=true
-
-
